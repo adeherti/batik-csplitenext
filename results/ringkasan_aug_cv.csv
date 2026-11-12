@@ -1,0 +1,3 @@
+regime,n_fold,train_acc,test_acc,f1_mean,f1_std
+mixup,5,0.7915,0.4987,0.4925,0.0196
+noaug,5,0.9987,0.1958,0.1978,0.0147

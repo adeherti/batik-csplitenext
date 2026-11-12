@@ -1,0 +1,11 @@
+model,csp_skip_ratio,stem,block_norm,ese,warmup,ckpt,epochs,lr,aug_geom,aug_mix,seed,experiment,variant,fold,test_accuracy,test_precision_macro,test_recall_macro,test_f1_macro,test_auc_macro,params_M,gflops,train_time_s
+cspconvnext,0.16,stepped,bn,False,20,ema,300,0.0003,True,False,42,ablasi_r016,r0.16_noESE,0,0.5909,0.6007,0.5916,0.5732,0.9107,21.42,3.577,2720.0
+cspconvnext,0.16,stepped,bn,False,20,ema,300,0.0003,True,False,42,ablasi_r016,r0.16_noESE,1,0.549,0.5832,0.5467,0.5524,0.9105,21.42,3.577,2702.3
+cspconvnext,0.16,stepped,bn,False,20,ema,300,0.0003,True,False,42,ablasi_r016,r0.16_noESE,2,0.5425,0.6217,0.5405,0.5427,0.8985,21.42,3.577,2696.8
+cspconvnext,0.16,stepped,bn,False,20,ema,300,0.0003,True,False,42,ablasi_r016,r0.16_noESE,3,0.4641,0.483,0.4548,0.441,0.8986,21.42,3.577,2697.1
+cspconvnext,0.16,stepped,bn,False,20,ema,300,0.0003,True,False,42,ablasi_r016,r0.16_noESE,4,0.5817,0.6339,0.5792,0.577,0.907,21.42,3.577,2694.6
+cspconvnext,0.16,stepped,ln,False,20,ema,300,0.0003,True,False,42,ablasi_r016,r0.16_LN,0,0.6364,0.6364,0.6403,0.6281,0.9212,21.415,3.564,2871.8
+cspconvnext,0.16,stepped,ln,False,20,ema,300,0.0003,True,False,42,ablasi_r016,r0.16_LN,1,0.6275,0.6482,0.6292,0.624,0.9216,21.415,3.564,2872.1
+cspconvnext,0.16,stepped,ln,False,20,ema,300,0.0003,True,False,42,ablasi_r016,r0.16_LN,2,0.5686,0.5838,0.5652,0.5544,0.9056,21.415,3.564,2867.5
+cspconvnext,0.16,stepped,ln,False,20,ema,300,0.0003,True,False,42,ablasi_r016,r0.16_LN,3,0.5948,0.6185,0.597,0.5912,0.9114,21.415,3.564,2869.2
+cspconvnext,0.16,stepped,ln,False,20,ema,300,0.0003,True,False,42,ablasi_r016,r0.16_LN,4,0.6601,0.716,0.6568,0.6625,0.9308,21.415,3.564,2874.1

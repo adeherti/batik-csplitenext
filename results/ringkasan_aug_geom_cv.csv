@@ -1,0 +1,2 @@
+regime,n_fold,train_acc,test_acc,f1_mean,f1_std
+geom,5,0.9422,0.5482,0.5453,0.0279

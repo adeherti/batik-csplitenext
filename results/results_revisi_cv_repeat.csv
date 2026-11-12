@@ -1,0 +1,11 @@
+model,csp_skip_ratio,stem,block_norm,ese,warmup,ckpt,epochs,lr,aug_geom,aug_mix,seed,experiment,variant,fold,test_accuracy,test_precision_macro,test_recall_macro,test_f1_macro,test_auc_macro,params_M,gflops,train_time_s
+convnext_ours,,stepped,bn,True,20,ema,300,0.0003,True,False,2026,repeat_cv,control_seed2026,0,0.6558,0.6776,0.6545,0.6441,0.9318,31.542,4.703,3450.0
+convnext_ours,,stepped,bn,True,20,ema,300,0.0003,True,False,2026,repeat_cv,control_seed2026,1,0.7124,0.7265,0.7054,0.6994,0.9514,31.542,4.703,3446.1
+convnext_ours,,stepped,bn,True,20,ema,300,0.0003,True,False,2026,repeat_cv,control_seed2026,2,0.6732,0.6937,0.6682,0.6626,0.9456,31.542,4.703,3445.1
+convnext_ours,,stepped,bn,True,20,ema,300,0.0003,True,False,2026,repeat_cv,control_seed2026,3,0.6797,0.7078,0.6804,0.6854,0.9228,31.542,4.703,3448.0
+convnext_ours,,stepped,bn,True,20,ema,300,0.0003,True,False,2026,repeat_cv,control_seed2026,4,0.6209,0.6773,0.6146,0.6154,0.9182,31.542,4.703,3445.0
+cspconvnext,0.16,stepped,bn,True,20,ema,300,0.0003,True,False,2026,repeat_cv,r0.16_seed2026,0,0.6104,0.6295,0.6165,0.6038,0.9422,23.71,3.579,3011.7
+cspconvnext,0.16,stepped,bn,True,20,ema,300,0.0003,True,False,2026,repeat_cv,r0.16_seed2026,1,0.634,0.6552,0.6262,0.6218,0.9217,23.71,3.579,3014.8
+cspconvnext,0.16,stepped,bn,True,20,ema,300,0.0003,True,False,2026,repeat_cv,r0.16_seed2026,2,0.6536,0.6783,0.6494,0.6481,0.9273,23.71,3.579,3011.5
+cspconvnext,0.16,stepped,bn,True,20,ema,300,0.0003,True,False,2026,repeat_cv,r0.16_seed2026,3,0.6797,0.7013,0.6824,0.6781,0.9273,23.71,3.579,3011.7
+cspconvnext,0.16,stepped,bn,True,20,ema,300,0.0003,True,False,2026,repeat_cv,r0.16_seed2026,4,0.6013,0.6433,0.5964,0.5932,0.9064,23.71,3.579,3017.0

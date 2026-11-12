@@ -1,0 +1,11 @@
+model,csp_skip_ratio,stem,block_norm,ese,warmup,ckpt,epochs,lr,aug_geom,aug_mix,seed,pretrained,variant,fold,test_accuracy,test_precision_macro,test_recall_macro,test_f1_macro,test_auc_macro,last_f1_macro,last_accuracy,params_M,gflops,train_time_s
+mobilevit_s,,stepped,bn,True,5,ema,50,0.0001,True,False,42,True,mobilevit_s_pt_lr1e-4,0,0.6818,0.7133,0.6785,0.6748,0.9524,0.8138,0.8247,4.95,1.42,265.1
+mobilevit_s,,stepped,bn,True,5,ema,50,0.0001,True,False,42,True,mobilevit_s_pt_lr1e-4,1,0.6863,0.7466,0.692,0.6797,0.9487,0.9024,0.902,4.95,1.42,259.0
+mobilevit_s,,stepped,bn,True,5,ema,50,0.0001,True,False,42,True,mobilevit_s_pt_lr1e-4,2,0.6536,0.7146,0.6542,0.6608,0.9611,0.8915,0.8954,4.95,1.42,259.0
+mobilevit_s,,stepped,bn,True,5,ema,50,0.0001,True,False,42,True,mobilevit_s_pt_lr1e-4,3,0.7059,0.7105,0.7009,0.6867,0.9439,0.8417,0.8497,4.95,1.42,258.9
+mobilevit_s,,stepped,bn,True,5,ema,50,0.0001,True,False,42,True,mobilevit_s_pt_lr1e-4,4,0.6667,0.7259,0.6625,0.6659,0.9589,0.8624,0.8627,4.95,1.42,258.8
+mobilevit_s,,stepped,bn,True,5,ema,50,0.0003,True,False,42,True,mobilevit_s_pt_lr3e-4,0,0.7922,0.8278,0.7961,0.7913,0.9807,0.8852,0.8831,4.95,1.42,259.1
+mobilevit_s,,stepped,bn,True,5,ema,50,0.0003,True,False,42,True,mobilevit_s_pt_lr3e-4,1,0.7843,0.8186,0.7881,0.7872,0.9738,0.8751,0.8758,4.95,1.42,259.4
+mobilevit_s,,stepped,bn,True,5,ema,50,0.0003,True,False,42,True,mobilevit_s_pt_lr3e-4,2,0.7647,0.8087,0.7693,0.7765,0.9807,0.908,0.9085,4.95,1.42,259.1
+mobilevit_s,,stepped,bn,True,5,ema,50,0.0003,True,False,42,True,mobilevit_s_pt_lr3e-4,3,0.7778,0.8021,0.7765,0.7713,0.9749,0.8831,0.8889,4.95,1.42,259.2
+mobilevit_s,,stepped,bn,True,5,ema,50,0.0003,True,False,42,True,mobilevit_s_pt_lr3e-4,4,0.8039,0.8123,0.8015,0.7919,0.9812,0.9001,0.902,4.95,1.42,259.1

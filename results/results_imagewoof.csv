@@ -1,0 +1,10 @@
+model,csp_skip_ratio,stem,block_norm,ese,warmup,ckpt,epochs,lr,aug_geom,aug_mix,seed,variant,subset,n_train,test_accuracy,test_precision_macro,test_recall_macro,test_f1_macro,test_auc_macro,train_time_s
+convnext_ours,,stepped,bn,True,5,ema,60,0.0003,True,False,0,control,full,9025,0.7656,0.7607,0.7578,0.7576,0.9658,8771.8
+cspconvnext,0.16,stepped,bn,True,5,ema,60,0.0003,True,False,0,r0.16,full,9025,0.7389,0.7349,0.7354,0.7333,0.9621,7730.2
+convnext_ours,,stepped,bn,True,20,ema,300,0.0003,True,False,0,control,n30,300,0.1054,0.0406,0.0992,0.0273,0.6062,1521.3
+cspconvnext,0.16,stepped,bn,True,20,ema,300,0.0003,True,False,0,r0.16,n30,300,0.1084,0.0607,0.1019,0.0234,0.6152,1367.2
+convnext_ours,,stepped,bn,True,20,ema,300,0.0003,True,False,1,control,n30,300,0.1059,0.09,0.0996,0.0264,0.5916,1520.0
+cspconvnext,0.16,stepped,bn,True,20,ema,300,0.0003,True,False,1,r0.16,n30,300,0.1469,0.0635,0.1383,0.0487,0.5954,1361.8
+convnext_ours,,stepped,bn,True,5,ema,60,0.0003,True,False,1,control,full,9025,0.7689,0.7642,0.765,0.763,0.9673,9853.0
+cspconvnext,0.16,stepped,bn,True,5,ema,60,0.0003,True,False,1,r0.16,full,9025,0.7266,0.7207,0.7234,0.7209,0.9607,8579.1
+cspconvnext,0.5,stepped,bn,True,5,ema,60,0.0003,True,False,0,r0.50,full,9025,0.7035,0.6985,0.7011,0.6981,0.9514,4421.9

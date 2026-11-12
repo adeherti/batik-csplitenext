@@ -1,0 +1,3 @@
+variant,n_fold,acc,f1_mean,f1_std,auc,f1_last,params_M
+mobilevit_s_pt_lr1e-4,5,0.6789,0.6736,0.0104,0.953,0.8624,4.95
+mobilevit_s_pt_lr3e-4,5,0.7846,0.7836,0.0093,0.9783,0.8903,4.95
