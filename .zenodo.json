@@ -1,0 +1,13 @@
+{
+  "title": "Batik-CSPLiteNeXt: code, cross-validation splits and per-fold results",
+  "upload_type": "software",
+  "description": "Code, fold assignments, curation records, per-fold scores and per-fold predictions supporting the manuscript Batik-CSPLiteNeXt submitted to Computers, Materials & Continua (manuscript 94861).",
+  "creators": [
+    {"name": "Yani, Herti"},
+    {"name": "Purnomo, Hindriyanto Dwi"},
+    {"name": "Sembiring, Irwan"},
+    {"name": "Nataliani, Yessica"}
+  ],
+  "license": "MIT",
+  "keywords": ["batik", "image classification", "CSPNet", "ConvNeXt", "cross-validation", "small data"]
+}
